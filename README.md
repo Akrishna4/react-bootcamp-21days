@@ -104,17 +104,8 @@ If you have suggestions for improvements or want to add more exercises, feel fre
 
 ---
 
-## 🖼 Screenshot
-
-<!-- Replace the link below with an actual screenshot URL after uploading it -->
-
-![Screenshot](https://via.placeholder.com/1000x600.png?text=React+Bootcamp+21+Days+Screenshot)
-
----
 
 Happy Coding! 🚀
 
 ```
 
-Let me know if you want a banner image created for the screenshot section!
-```
