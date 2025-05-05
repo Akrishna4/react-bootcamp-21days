@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.App-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #e9f3fc;
+}
+
+.card {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 0 8px;
+  border-radius: 14px 20px 96px rgba(98, 172, 237, 0.1);
+}
+
+.card-header {
+  padding: 15px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #121926;
+  margin: 0;
+}
+
+.label {
+  font-size: 14px;
+  color: #343434;
+  margin: 0 0 0.3rem 0;
+  margin-top: 1rem;
+}
+
+.card-body {
+  padding: 0rem 18px 20px 18px;
+}
+
+input[type="file"] {
+  width: 335px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 10px 15px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #e9f3fc;
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 12px 20px;
+  border: none;
+  color: #092945;
+  background-color: #bcdbf7;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all ease 0.4s;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #0f4473;
+}
+
+.info-message {
+  font-size: 12px;
+  font-weight: 400;
+  color: #737373;
+  margin: 6px 0;
+}
+
+.success-message {
+  font-size: 12px;
+  font-weight: 500;
+  color: #00c853;
+  margin-top: 4px;
+}
+
+.error-message {
+  font-size: 12px;
+  font-weight: 500;
+  color: red;
+  margin-top: 4px;
+}
+
+.space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

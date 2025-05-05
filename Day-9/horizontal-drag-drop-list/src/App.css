@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  background-color: #d7e0e5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #e8eef3;
+  padding: 1rem;
+  color: #263b48;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.drag-drop-list-container {
+  padding: 1.5rem;
+  display: flex;
+  gap: 0.7rem;
+  overflow-x: auto;
+  min-height: 120px;
+}
+
+/* Custom scrollbar */
+.drag-drop-list-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.drag-drop-list-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.drag-drop-list-container::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.drag-drop-list-container::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}

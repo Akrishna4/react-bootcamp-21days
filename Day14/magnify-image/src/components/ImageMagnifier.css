@@ -1,0 +1,35 @@
+.magnifier-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.img-magnifier-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-magnifier {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.magnifier-glass {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: 200% 200%;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+}
+
+/* Add this if you want zoom effect on hover */
+.img-magnifier-container:hover .img-magnifier {
+  transform: scale(1.05);
+}

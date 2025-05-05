@@ -1,0 +1,124 @@
+/* App.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.scroll-container {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.scroll-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.scroll-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.content-box {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-id {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-label {
+  font-size: 1rem;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.scroll-btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.scroll-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.scroll-btn.left {
+  left: -50px;
+}
+
+.scroll-btn.right {
+  right: -50px;
+}
+
+.scroll-position {
+  margin-top: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1000px) {
+  .scroll-container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .scroll-btn.left {
+    left: 10px;
+  }
+
+  .scroll-btn.right {
+    right: 10px;
+  }
+}

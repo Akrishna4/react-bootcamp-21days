@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eff2f5;
+  padding: 2rem;
+}
+
+.button-group {
+  display: flex;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #0d315d;
+  border: none;
+  padding: 0.5rem 2rem;
+  background-color: #bcd7f8;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-left {
+  border-radius: 0.3rem 0 0 0.3rem;
+}
+
+.btn-right {
+  border-radius: 0 0.3rem 0.3rem 0;
+}
+
+.active {
+  background-color: #207ae8;
+  color: #fff;
+}
+
+.card {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 0.4rem;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  min-height: 150px;
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 400;
+  background-color: #ffffff;
+  border: 2px solid #d2e4fa;
+  border-radius: 0.3rem;
+  padding: 0.8rem;
+  resize: vertical;
+}
+
+textarea::placeholder {
+  color: #d1d1d1;
+}
+
+textarea:focus {
+  border-color: #207ae8;
+  outline: none;
+}
+
+.submit-btn {
+  border: none;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.encrypt-btn {
+  background-color: #207ae8;
+}
+
+.encrypt-btn:hover {
+  background-color: #1a6acf;
+}
+
+.decrypt-btn {
+  background-color: #e53471;
+}
+
+.decrypt-btn:hover {
+  background-color: #d12a64;
+}
+
+.error {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #ff0000;
+  margin-top: 0.5rem;
+}
+
+.content {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 1.5rem;
+  border: 2px dashed #bababa;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #a2a2a2;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 0.8rem;
+  color: #2e2e2e;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.5;
+}
