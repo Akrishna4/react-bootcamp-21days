@@ -52,9 +52,6 @@ react-bootcamp-21days/
 ├── day-3/
 ...
 ├── day-21/
-├── public/
-├── src/
-├── package.json
 └── README.md
 
 ````
