@@ -14,7 +14,6 @@ This project is a collection of daily challenges, exercises, and mini-projects d
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Contributing](#contributing)
-- [Screenshot](#screenshot)
 
 ---
 
